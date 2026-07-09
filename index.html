@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EBCP Latam 2025</title>
+    <title>EBCP Latam 2026</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="./images/bacteria favicon.svg">
@@ -19,7 +19,7 @@
         <nav class="navbar">
             <div class="nav-brand">
                 <img src="./images/logobacteria.svg" alt="EBCP Latam Logo" class="nav-logo">
-                <span class="brand-text">EBCP Latam 2025</span>
+                <span class="brand-text">EBCP Latam 2026</span>
             </div>
             <div class="nav-links">
                 <a href="schedules.html" data-es="Horarios" data-en="Schedules">Horarios</a>
@@ -68,9 +68,9 @@
 
             <!-- Fechas del curso (informativo, fuera del carrusel) -->
             <div class="course-dates">
-                <h3 data-es="El curso se desarrollará del <strong>13 al 17 de julio de 2026</strong>" 
-                data-en="The course will take place from <strong>July 13 to 17, 2026</strong>">
-                El curso se desarrollará del <strong>13 al 17 de julio de 2026</strong>
+                <h3 data-es="El curso se desarrollará del <strong>5 al 14 de agosto de 2026</strong>" 
+                data-en="The course will take place from <strong>August 5 to 14, 2026</strong>">
+                El curso se desarrollará del <strong>5 al 14 de agosto de 2026</strong>
                 </h3>
             </div>
 
@@ -99,8 +99,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p data-es="&copy; 2025 EBCP Latam. Preparado por el Laboratorio del Dr. Christian Cuba Samaniego" data-en="&copy; 2025 EBCP Latam. Prepared by Dr. Christian Cuba Samaniego's Laboratory">
-                &copy; 2025 EBCP Latam. Preparado por el Laboratorio del Dr. Christian Cuba Samaniego
+            <p data-es="&copy; 2026 EBCP Latam. Preparado por el Laboratorio del Dr. Christian Cuba Samaniego" data-en="&copy; 2026 EBCP Latam. Prepared by Dr. Christian Cuba Samaniego's Laboratory">
+                &copy; 2026 EBCP Latam. Preparado por el Laboratorio del Dr. Christian Cuba Samaniego
             </p>
         </div>
     </footer>
@@ -148,8 +148,8 @@
             }
         }
 
-        const baseStart = new Date("2026-07-13T11:00:00-04:00"); // 11:00 Boston (EDT)
-        const baseEnd   = new Date("2026-07-13T13:00:00-04:00"); // 13:00 Boston (EDT)
+        const baseStart = new Date("2026-08-05T12:00:00-04:00"); // 12:00 Boston (EDT)
+        const baseEnd   = new Date("2026-08-14T13:00:00-04:00"); // 13:00 Boston (EDT)
 
         function formatTime(date, tz, lang) {
             return new Intl.DateTimeFormat(lang === "es" ? "es-ES" : "en-US", {
@@ -161,7 +161,7 @@
 
 
         // ================== COUNTDOWN ==================
-        const eventDate = new Date("2026-07-13T11:00:00-04:00").getTime();
+        const eventDate = new Date("2026-08-05T12:00:00-04:00").getTime();
         function updateCountdown() {
             const now = new Date().getTime();
             const distance = eventDate - now;
